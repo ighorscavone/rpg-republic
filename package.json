@@ -1,0 +1,25 @@
+{
+  "name": "rpgrepublic",
+  "version": "1.0.0",
+  "description": "Repositório do Projeto de TCC RPG Republic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ighorscavone/RPGRepublic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ighorscavone/RPGRepublic/issues"
+  },
+  "homepage": "https://github.com/ighorscavone/RPGRepublic#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "sequelize": "^6.15.0"
+  }
+}

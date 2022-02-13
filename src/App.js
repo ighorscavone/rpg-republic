@@ -1,7 +1,12 @@
+import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import * as Dice from './dice/dice/main.js';
 
 function App() {
+  React.useEffect(() => {
+    Dice.dice_initialize(document.body);
+  }, [])
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +23,7 @@ function App() {
           Learn React AGORA MESMOasdas
         </a>
       </header>
+      <div id="canvas"></div>
     </div>
   );
 }
